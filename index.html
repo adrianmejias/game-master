@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>Banana</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="/assets/game-master.css">
+    </head>
+
+    <body class="bg">
+        <div class="terminal-container" style="min-height: auto;">
+            <h1>Game Master Terminal</h1>
+        </div>
+        <div class="terminal-container">
+            <div class="terminal-box" id="terminal-main">
+                <strong>Terminal</strong>
+                <br>
+                <div id="main-output"></div>
+                <div>
+                    <div id="main-prefix">root ~ &#36;</div> <span id="main-input"></span><span
+                        class="terminal-blinker">_</span>
+                </div>
+            </div>
+            <div class="terminal-box" id="terminal-wifi" style="height: 100px;">
+                <strong>Wifi Jammer</strong>
+                <br>
+                WSSID: <span id="hacker-wssid"></span>
+                <br>
+                VPN JUMP IP: <span id="hacker-ip"></span>
+                <br>
+                MAC ADDR: <span id="hacker-mac"></span>
+                <br>
+                FORGED PACKETS: <span id="hacker-packets"></span>
+            </div>
+            <div class="terminal-box" id="terminal-hacker">
+                <strong>Encrypted Session</strong>
+                <br>
+                <div id="hacker-output"></div>
+            </div>
+        </div>
+        <script src="/assets/game-master.js"></script>
+    </body>
+
+</html>
